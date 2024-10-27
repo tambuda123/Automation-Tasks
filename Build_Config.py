@@ -7,7 +7,7 @@ from inventory import INVENTORY
 from netmiko import ConnectHandler
 
 
-
+#Test for Jinja
 def fun_send_config(device, config):
 
     net_connect = ConnectHandler(
